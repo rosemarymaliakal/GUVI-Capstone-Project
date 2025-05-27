@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://adactinhotelapp.com/index.php"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="test.TC_001_LoginTest"/>
+  <!--    <class name="test.TC_002_SearchHotelTest"/>
+      <class name="test.TC_001_LoginTest"/>
+      <class name="test.TC_002_SearchHotelTest"/>
+      <class name="test.TC_001_LoginTest"/>  
+      <class name="test.TC_006_HotelItineraryTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

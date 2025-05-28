@@ -5,11 +5,11 @@
   <test thread-count="5" name="Test">
     <classes>
      <class name="test.TC_001_LoginTest"/>
-  <!--    <class name="test.TC_002_SearchHotelTest"/>
-      <class name="test.TC_001_LoginTest"/>
-      <class name="test.TC_002_SearchHotelTest"/>
-      <class name="test.TC_001_LoginTest"/>  
-      <class name="test.TC_006_HotelItineraryTest"/> -->
+   <class name="test.TC_002_SearchHotelTest"/>
+      <class name="test.TC_003_HotelListTest"/>
+      <class name="test.TC_004_HotelBookTest"/>
+      <class name="test.TC_005_ConfirmHotelTest"/>  
+      <class name="test.TC_007_LogoutTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

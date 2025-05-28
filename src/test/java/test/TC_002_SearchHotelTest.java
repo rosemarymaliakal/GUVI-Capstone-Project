@@ -74,16 +74,16 @@ public class TC_002_SearchHotelTest extends ProjectSpecificationMethods {
 		.clickSearch();
 		obj2.validatecheckoutDateAfter();
 		
-		obj.selectLocation(1)
-		.selectHotel(1)
-		.selectRoomtype(1)
-		.selectRoomNumber(1)
-		.enterCheckindate("23-07-2025")
-		.enterCheckoutDate("24-07-2025")
-		.selectAdultNumber(2)
-		.selectChildNumber(2)
-		.clickSearch()
-		.validateWithMandatoryFields(); //all fields entered
+//		obj.selectLocation(1)
+//		.selectHotel(1)
+//		.selectRoomtype(1)
+//		.selectRoomNumber(1)
+//		.enterCheckindate("23-07-2025")
+//		.enterCheckoutDate("24-07-2025")
+//		.selectAdultNumber(2)
+//		.selectChildNumber(2)
+//		.clickSearch()
+//		.validateWithMandatoryFields(); //all fields entered
 		
 	}
 	

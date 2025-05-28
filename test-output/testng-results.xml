@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-25T23:44:59 IST" name="Suite" finished-at="2025-05-25T23:45:19 IST" duration-ms="19780">
+  <suite started-at="2025-05-28T22:56:41 IST" name="Suite" finished-at="2025-05-28T22:57:40 IST" duration-ms="58429">
     <groups>
     </groups>
-    <test started-at="2025-05-25T23:44:59 IST" name="Test" finished-at="2025-05-25T23:45:19 IST" duration-ms="19780">
-      <class name="test.TC_006_HotelItineraryTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_006_HotelItineraryTest@3bd82cf5]" started-at="2025-05-25T23:44:59 IST" name="launchBrowser" finished-at="2025-05-25T23:45:04 IST" duration-ms="5527" status="PASS">
+    <test started-at="2025-05-28T22:56:41 IST" name="Test" finished-at="2025-05-28T22:57:40 IST" duration-ms="58429">
+      <class name="test.TC_001_LoginTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_001_LoginTest@6c40365c]" started-at="2025-05-28T22:56:41 IST" name="launchBrowser" finished-at="2025-05-28T22:56:45 IST" duration-ms="3951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,99 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="HotelItineraryTest()[pri:0, instance:test.TC_006_HotelItineraryTest@3bd82cf5]" started-at="2025-05-25T23:45:04 IST" name="HotelItineraryTest" finished-at="2025-05-25T23:45:18 IST" duration-ms="13853" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:test.TC_001_LoginTest@6c40365c]" started-at="2025-05-28T22:56:45 IST" name="LoginTest" finished-at="2025-05-28T22:56:47 IST" duration-ms="1281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HotelItineraryTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_006_HotelItineraryTest@3bd82cf5]" started-at="2025-05-25T23:45:18 IST" name="closeBrowser" finished-at="2025-05-25T23:45:19 IST" duration-ms="347" status="PASS">
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_LoginTest@6c40365c]" started-at="2025-05-28T22:56:47 IST" name="closeBrowser" finished-at="2025-05-28T22:56:47 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- test.TC_006_HotelItineraryTest -->
+      </class> <!-- test.TC_001_LoginTest -->
+      <class name="test.TC_007_LogoutTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_007_LogoutTest@6aaceffd]" started-at="2025-05-28T22:57:33 IST" name="launchBrowser" finished-at="2025-05-28T22:57:38 IST" duration-ms="4515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="LogoutTest()[pri:0, instance:test.TC_007_LogoutTest@6aaceffd]" started-at="2025-05-28T22:57:38 IST" name="LogoutTest" finished-at="2025-05-28T22:57:39 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_007_LogoutTest@6aaceffd]" started-at="2025-05-28T22:57:39 IST" name="closeBrowser" finished-at="2025-05-28T22:57:40 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_007_LogoutTest -->
+      <class name="test.TC_005_ConfirmHotelTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_005_ConfirmHotelTest@e4487af]" started-at="2025-05-28T22:57:08 IST" name="launchBrowser" finished-at="2025-05-28T22:57:11 IST" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="ConfirmHotelPage()[pri:0, instance:test.TC_005_ConfirmHotelTest@e4487af]" started-at="2025-05-28T22:57:11 IST" name="ConfirmHotelPage" finished-at="2025-05-28T22:57:33 IST" duration-ms="21937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmHotelPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_005_ConfirmHotelTest@e4487af]" started-at="2025-05-28T22:57:33 IST" name="closeBrowser" finished-at="2025-05-28T22:57:33 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_005_ConfirmHotelTest -->
+      <class name="test.TC_003_HotelListTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_003_HotelListTest@757277dc]" started-at="2025-05-28T22:56:58 IST" name="launchBrowser" finished-at="2025-05-28T22:57:01 IST" duration-ms="3098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="HotelListTest()[pri:0, instance:test.TC_003_HotelListTest@757277dc]" started-at="2025-05-28T22:57:01 IST" name="HotelListTest" finished-at="2025-05-28T22:57:08 IST" duration-ms="6290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelListTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003_HotelListTest@757277dc]" started-at="2025-05-28T22:57:08 IST" name="closeBrowser" finished-at="2025-05-28T22:57:08 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_003_HotelListTest -->
+      <class name="test.TC_002_SearchHotelTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TC_002_SearchHotelTest@5c671d7f]" started-at="2025-05-28T22:56:47 IST" name="launchBrowser" finished-at="2025-05-28T22:56:50 IST" duration-ms="3050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SearchHotelTest()[pri:0, instance:test.TC_002_SearchHotelTest@5c671d7f]" started-at="2025-05-28T22:56:50 IST" name="SearchHotelTest" finished-at="2025-05-28T22:56:58 IST" duration-ms="7940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_002_SearchHotelTest@5c671d7f]" started-at="2025-05-28T22:56:58 IST" name="closeBrowser" finished-at="2025-05-28T22:56:58 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_002_SearchHotelTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

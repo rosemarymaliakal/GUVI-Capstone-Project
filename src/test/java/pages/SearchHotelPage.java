@@ -60,6 +60,9 @@ public class SearchHotelPage extends ProjectSpecificationMethods {
 	@FindBy(xpath = "//a[contains(text(),'Booked')]")
 	WebElement itinerarymenu;
 	
+	@FindBy(xpath = "//a[text()='Logout']")
+	WebElement logoutbtn;
+	
 	public SearchHotelPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -177,5 +180,12 @@ public class SearchHotelPage extends ProjectSpecificationMethods {
 		wait.until(ExpectedConditions.visibilityOf(itinerarymenu));
 		itinerarymenu.click();
 		return new ItineraryPage(driver);
+	}
+	
+	public HomePage clickonLogoutbtn() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOf(logoutbtn));
+		logoutbtn.click();
+		return new HomePage(driver);
 	}
 }

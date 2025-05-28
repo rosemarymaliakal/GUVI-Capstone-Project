@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TC_006_HotelItineraryTest">
+      <class name="test.TC_007_LogoutTest">
         <methods>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
-          <include name="HotelItineraryTest"/>
+          <include name="LogoutTest"/>
         </methods>
-      </class> <!-- test.TC_006_HotelItineraryTest -->
+      </class> <!-- test.TC_007_LogoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
